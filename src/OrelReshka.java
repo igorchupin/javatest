@@ -5,7 +5,7 @@ public class OrelReshka {
     public static void main(String[] args) {
 
         String yourGuess;
-        //do {
+        do {
             Scanner scanner = new Scanner(System.in);
             System.out.print("What's your guess: ");
             yourGuess = scanner.next();
@@ -21,8 +21,8 @@ public class OrelReshka {
                     System.out.println("You Win =))))))" + "head=0  and " + tailOrHead);
                 } else
                     System.out.println("You loose =(((((" + "head=0  and " + tailOrHead);
-        //}
-        //while (!yourGuess.equals("exit"));
+        }
+        while (!yourGuess.equals("exit"));
         }
     }
 
